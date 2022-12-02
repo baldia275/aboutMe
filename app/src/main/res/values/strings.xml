@@ -2,4 +2,10 @@
     <string name="app_name">aboutMe</string>
     <string name="Ahmed_Ben_Abdesselem">Ahmed Ben Abdesselem</string>
     <string name="yellow_star">Yellow Star</string>
+    <string name="bio">Hello, my name is Ahmed.
+    \n\n I love boxing.
+    \n This is a hard sport but it is the only thing that makes me fell alive.\n
+    \n I feel more stressful if I don\'t train, or fight.
+    \n The hardest things in boxing for me, are the stress before a fight and the weight.\n\n</string>
+
 </resources>
