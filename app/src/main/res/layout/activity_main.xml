@@ -27,7 +27,8 @@
         android:hint="@string/what_is_your_nickname"
         android:inputType="textPersonName|textImeMultiLine"
         android:minHeight="48dp"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textColorHint="#78909C" />
 
     <Button
         android:id="@+id/done_button"
@@ -37,7 +38,9 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="@dimen/layout_margin"
         android:fontFamily="@font/roboto"
-        android:text="@string/done" />
+        android:text="@string/done"
+        android:textColor="#000000"
+        tools:ignore="TextContrastCheck" />
 
     <ImageView
         android:id="@+id/star_image"
@@ -47,6 +50,14 @@
         android:contentDescription="@string/yellow_star"
         app:srcCompat="@android:drawable/btn_star_big_on"
         tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/nickname_text"
+        style="@style/NameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:visibility="gone" />
 
     <ScrollView
         android:id="@+id/bio_scroll"
